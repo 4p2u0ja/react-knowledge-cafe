@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
-const Blog = ({blog}) => {
+import { FaBookmark } from "react-icons/fa";
+
+const Blog = ({blog ,handleAddToBookmark }) => {
     const {title ,cover, author , author_img,reading_time ,posted_date,hashtags}= blog
     return (
         <div>
-            <img className="w-10/12 rounded "src={cover} alt={`cover pic of the title ${title}`} />
+            <img className=" rounded mb-8 "src={cover} alt={`cover pic of the title ${title}`} />
             <div className='flex justify-between'>
                 <div className='flex' >
                     <img className='rounded-full w-16 h-16' src={author_img}  alt="" />
@@ -17,6 +19,9 @@ const Blog = ({blog}) => {
                 </div>
                 <div>
                  <span>{reading_time} min read</span> 
+                 <button onClick={()=>handleAddToBookmark(blog)}
+                 className='m-2 text-2xl text-red-600'
+                 ><FaBookmark></FaBookmark></button>
 
                 </div>
             </div>
@@ -27,5 +32,7 @@ const Blog = ({blog}) => {
         </div>
     );
 };
-Blog.propTypes ={blog:PropTypes.object.isRequired}
+Blog.propTypes ={blog:PropTypes.object.isRequired
+,handleAddToBookmark: PropTypes.func
+}
 export default Blog;
