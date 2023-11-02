@@ -6,7 +6,7 @@
     "author": "John Doe",
     "author_img": "https://i.ibb.co/hF7BPKt/close-up-photo-shocked-retro-girl-with-afro-hairstyle-holding-retro-phone.jpg",
     "posted_date": "2023-10-31",
-    "reading_time": "10 minutes",
+    "reading_time": 10,
     "hashtags": ["technology", "programming", "web"]
 },
 
@@ -17,7 +17,7 @@
     "author": "Jane Smith",
     "author_img": "https://i.ibb.co/SXq54B2/positive-pleased-male-with-curly-hair.jpg",
     "posted_date": "2023-10-30",
-    "reading_time": "8 minutes",
+    "reading_time": 8,
     "hashtags": ["science", "research", "discovery"]
 },
 
@@ -28,7 +28,7 @@
     "author": "Mike Johnson",
     "author_img": "https://i.ibb.co/zGMN2mJ/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg",
     "posted_date": "2023-10-29",
-    "reading_time": "12 minutes",
+    "reading_time": 12 ,
     "hashtags": ["health", "wellness", "nutrition"]
 },
 
@@ -39,7 +39,7 @@
     "author": "Emily Brown",
     "author_img": "https://i.ibb.co/LRwbJRx/portrait-white-man-isolated.jpg",
     "posted_date": "2023-10-28",
-    "reading_time": "7 minutes",
+    "reading_time": 7,
     "hashtags": ["travel", "adventure", "explore"]
 },
 
@@ -50,6 +50,6 @@
     "author": "David Wilson",
     "author_img": "https://i.ibb.co/zVDSW1R/portrait-man-laughing.jpg",
     "posted_date": "2023-10-27",
-    "reading_time": "9 minutes",
+    "reading_time": 9,
     "hashtags": ["art", "creativity", "design"]
 }]
